@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Competite</title>
+  </head>
+  <body>
+    
+    <div id="app">
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">Competite</h1>
+            <progress class="progress is-small is-primary" max="100"></progress>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- scripts and styles -->
+    {% style "/assets/bulma/css/bulma.min.css" %}
+    {% style "/assets/material-icons/css/material-icons.min.css" %}
+    {% style "/css/screen.css" %}
+
+    <script type="text/javascript">
+        var csrfToken = "{{csrf-token}}";
+    </script>
+    {% script "/js/app.js" %}
+  </body>
+</html>

@@ -2,6 +2,7 @@ pom.xml
 pom.xml.asc
 *.jar
 *.class
+*.log
 /lib/
 /classes/
 /target/
@@ -12,3 +13,6 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+.rebel_readline_history
+dev-config.edn
+test-config.edn
